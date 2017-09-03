@@ -14,6 +14,7 @@
     "case-sensitive-paths-webpack-plugin": "2.1.1",
     "chalk": "1.1.3",
     "css-loader": "0.28.4",
+    "data": "git+ssh://git@github.com/blank-string/data.git",
     "dotenv": "4.0.0",
     "eslint": "4.4.1",
     "eslint-config-react-app": "^2.0.0",
@@ -39,6 +40,7 @@
     "react-router-redux": "^4.0.8",
     "redux": "^3.7.2",
     "redux-localstorage": "^0.4.1",
+    "rss": "git+ssh://git@github.com/blank-string/rss.git",
     "style-loader": "0.18.2",
     "sw-precache-webpack-plugin": "0.11.4",
     "url-loader": "0.5.9",
@@ -51,7 +53,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "deploy": "npm run build && surge ./build blankstring.surge.sh"
+    "deploy": "npm run build && rss build && surge ./build blankstring.surge.sh"
   },
   "jest": {
     "collectCoverageFrom": [
