@@ -5,7 +5,7 @@
   "dependencies": {
     "aphrodite": "^1.2.3",
     "bulma": "^0.5.1",
-    "data": "git+ssh://git@github.com/blank-string/data.git",
+    "data": "git+https://git@github.com/blank-string/data.git",
     "fontawesome": "^4.7.2",
     "normalize.css": "^7.0.0",
     "object-assign": "4.1.1",
@@ -26,7 +26,7 @@
     "webpack-dev-server": "2.7.1",
     "webpack-manifest-plugin": "1.2.1",
     "whatwg-fetch": "2.0.3",
-    "rss": "git+ssh://git@github.com/blank-string/rss.git",
+    "rss": "git+https://git@github.com/blank-string/rss.git",
     "react-dev-utils": "^4.0.0",
     "postcss-flexbugs-fixes": "3.2.0",
     "postcss-loader": "2.0.6",
