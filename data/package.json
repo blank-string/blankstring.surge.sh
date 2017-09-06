@@ -1,0 +1,25 @@
+{
+  "name": "data",
+  "private": true,
+  "version": "0.6.2",
+  "description": "This is where all the data for the episodes lives",
+  "main": "index.json",
+  "scripts": {
+    "build": "node index.js",
+    "new": "node new.js",
+    "deploy": "npm run dist; git commit -am 'new dist'; npm version major; git push --tags; git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blank-string/data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blank-string/data/issues"
+  },
+  "homepage": "https://github.com/blank-string/data#readme",
+  "dependencies": {
+    "md5": "^2.2.1",
+    "mp3-duration": "^1.0.10",
+    "prompt": "^1.0.0"
+  }
+}
