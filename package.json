@@ -62,8 +62,6 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "data": "cd data && npm install && npm link && cd .. && npm link data",
-    "rss": "cd rss && npm install && npm run data && npm link && cd .. && npm link rss",
     "deploy": "npm run build && rss build && surge ./build blankstring.surge.sh"
   },
   "jest": {
