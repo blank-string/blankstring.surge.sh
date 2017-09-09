@@ -55,7 +55,6 @@
     "surge": "^0.19.0",
     "sw-precache-webpack-plugin": "0.11.4",
     "url-loader": "0.5.9",
-    "webdav": "^1.1.0",
     "webpack": "3.5.1",
     "webpack-dev-server": "2.7.1",
     "webpack-manifest-plugin": "1.2.1",
@@ -65,8 +64,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "owncloud": "node scripts/owncloud",
-    "deploy": "npm run owncloud && npm run build && rss build && surge ./build blankstring.surge.sh"
+    "deploy": "npm run build && rss build && surge ./build blankstring.surge.sh"
   },
   "jest": {
     "collectCoverageFrom": [
